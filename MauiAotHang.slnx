@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MauiAotHang.Features/MauiAotHang.Features.csproj" />
+  <Project Path="MauiAotHang/MauiAotHang.csproj">
+    <Deploy Solution="Debug|*" />
+  </Project>
+</Solution>

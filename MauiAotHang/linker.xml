@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<linker>
+  <assembly fullname="MauiAotHang">
+    <type fullname="*" preserve="all" />
+  </assembly>
+  <assembly fullname="MauiAotHang.Features">
+    <type fullname="*" preserve="all" />
+  </assembly>
+</linker>
