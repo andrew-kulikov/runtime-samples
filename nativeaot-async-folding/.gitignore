@@ -1,0 +1,4 @@
+bin/
+obj/
+AsyncFolding/Generated.cs
+publish-*.log
