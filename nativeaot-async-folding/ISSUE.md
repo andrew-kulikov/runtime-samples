@@ -64,6 +64,21 @@ Yes, in practice: before .NET 10 folding was off by default for these builds (op
   build configuration that compiles its own libraries without optimization spends ~16 s in `EnsureMap` instead of
   ~886 s. The cost is unoptimized IL in those assemblies and an extra heap allocation per async call.
 
+### Runtime async
+
+Runtime async will most likely remove the async part of this problem. Methods compiled with `runtime-async=on` have no
+compiler-generated state machine structs, so there are no per-method `AsyncStateMachineBox<TResult, TSM>` copies to
+fold. It does not make the fix unnecessary:
+- Runtime async is not on by default for user code in .NET 11. Since #125406, only the shared framework is compiled
+  with `runtime-async=on`, and only for net11.0+. User code has to opt in with `<Features>runtime-async=on</Features>`.
+  Libraries from NuGet that target net10.0 or older, or netstandard, keep their struct state machines.
+- `RuntimeAsyncSupported` excludes Apple mobile, Android, browser, wasi and Mono, so even the framework is still
+  compiled with classic state machines for ios-arm64 (the platform we hit this on).
+- The hash collision is not specific to async. Any generic code instantiated over many value types whose bodies
+  differ only in relocations (the type handle, static base or callee of the type argument) produces the same buckets,
+  e.g. struct-constrained "generic specialization" patterns (`Run<TOp>() where TOp : struct, IOp`) or helpers
+  instantiated over many struct types.
+
 ### Proposed fix
 
 Hash relocations in `MethodInternKey` consistently with `MethodInternComparer.AreSame`: reloc type, offset and either
