@@ -14,17 +14,17 @@ O(n²) per method family per pass, and `EnsureMap` repeats the pass until the re
 ~12,000 async methods this phase takes ~15 minutes of single-threaded time inside `ObjectWriter.EmitObject`
 (the whole ILC run takes ~20 min instead of ~4 min with folding disabled).
 
-Steps to reproduce (osx-arm64 shown; any RID works):
+Steps to reproduce (any OS/RID supported by Native AOT; use `python` instead of `python3` on Windows):
 1. Generate N async methods (default 4000) in `AsyncFolding/Generated.cs`:
 ```bash
 python3 ./generate_async.py -n 4000
 ```
 2. Publish with folding (the default) and without it, and compare the `IlcCompile` time:
 ```bash
-./measure.sh 4000 8000
+python3 ./measure.py 4000 8000
 ```
-`measure.sh` publishes `-c Release` twice per N, with the default settings and with `-p:IlcFoldIdenticalMethodBodies=false`,
-and prints the wall time of each publish. Pass `ILC_TOOLS_PATH=<runtime>/artifacts/bin/coreclr/<rid>.Release/ilc-published/`
+`measure.py` publishes `-c Release` for the host RID (or `--rid`) twice per N, with the default settings and with `-p:IlcFoldIdenticalMethodBodies=false`,
+and prints the wall time of each publish. Pass `--ilc-tools-path <runtime>/artifacts/bin/coreclr/<rid>.Release/ilc-published/`
 to use a locally built ILC.
 
 Results (M1 Pro, SDK 10.0.401 / ILCompiler 10.0.12, whole `dotnet publish` wall time):

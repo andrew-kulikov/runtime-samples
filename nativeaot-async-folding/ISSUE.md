@@ -26,11 +26,11 @@ A self-contained sample: https://github.com/andrew-kulikov/runtime-samples/tree/
 git clone https://github.com/andrew-kulikov/runtime-samples
 cd runtime-samples/nativeaot-async-folding
 python3 ./generate_async.py -n 8000     # 8000 x `async Task<int> M(int x) { await Task.Yield(); return x + i; }`
-dotnet publish AsyncFolding -c Release -r osx-arm64                                       # ~270 s
-dotnet publish AsyncFolding -c Release -r osx-arm64 -p:IlcFoldIdenticalMethodBodies=false # ~15 s
+dotnet publish AsyncFolding -c Release                                       # ~270 s
+dotnet publish AsyncFolding -c Release -p:IlcFoldIdenticalMethodBodies=false # ~15 s
 ```
 
-(any RID works; `./measure.sh 2000 4000 8000` runs both variants for several sizes)
+(`python3 ./measure.py 2000 4000 8000` runs both variants for several sizes)
 
 Whole `dotnet publish` wall time, M1 Pro, SDK 10.0.401 (ILCompiler 10.0.12):
 
