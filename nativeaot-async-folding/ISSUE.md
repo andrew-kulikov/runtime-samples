@@ -1,4 +1,4 @@
-# Native AOT: method body folding is quadratic in the number of async methods (struct state machines)
+# [NativeAOT] Method body folding takes quadratic time with many async methods (struct state machines)
 
 ### Description
 
