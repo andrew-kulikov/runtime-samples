@@ -56,8 +56,13 @@ Yes, in practice: before .NET 10 folding was off by default for these builds (op
 
 ### Known workarounds
 
-`<IlcFoldIdenticalMethodBodies>false</IlcFoldIdenticalMethodBodies>` (loses the size gains of folding elsewhere,
-~+11 MB in our app).
+- `<IlcFoldIdenticalMethodBodies>false</IlcFoldIdenticalMethodBodies>` (loses the size gains of folding elsewhere,
+  ~+11 MB in our app).
+- `<Optimize>false</Optimize>` for the assemblies that contain most of the async methods. Without optimizations the C#
+  compiler emits class state machines instead of struct ones, so all async methods share the canonical
+  `AsyncStateMachineBox<TResult, __Canon>` code and there are no per-method copies to deduplicate. In our app, the
+  build configuration that compiles its own libraries without optimization spends ~16 s in `EnsureMap` instead of
+  ~886 s. The cost is unoptimized IL in those assemblies and an extra heap allocation per async call.
 
 ### Proposed fix
 
