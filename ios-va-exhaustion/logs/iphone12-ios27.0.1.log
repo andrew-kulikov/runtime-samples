@@ -1,0 +1,2269 @@
+# iPhone 12 (4 GB), iOS 27.0.1, Xcode 26.6, .NET SDK 10.0.401 / runtime 10.0.12 Native AOT.
+# No com.apple.developer.kernel.extended-virtual-addressing entitlement.
+# Timestamps, process ids, and the app-container path are removed.
+[va] start .NET 10.0.12 framework=.NET 10.0.12 os=27.0.1 model=iPhone dynamic_code=False
+[va] ===== before step 0 held 0 MiB =====
+[va] SUMMARY os_proc_available_memory=2.04 GiB phys_footprint=6.03 MiB resident=24.73 MiB resident_peak=24.73 MiB device_ram=3.60 GiB virtual=442.57 GiB region_count=105 page=16384 min=0x100958000 max=0x7180000000 gc_heap=0 B gc_committed=0 B gc_total_available=3.60 GiB managed=169.49 KiB
+[va] FREE_SUMMARY walked=105 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=7.42 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x125670000-0x16f3a8000 size=1.15 GiB
+[va] LARGEST_FREE[2] 0x16fa94000-0x180000000 size=261.42 MiB
+[va] LARGEST_FREE[3] 0x1228a4000-0x122c00000 size=3.36 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d64000-0x100ec4000 size=1.38 MiB
+[va] LARGEST_FREE[6] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] LARGEST_FREE[7] 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] FREE 0x100d18000-0x100d20000 size=32.00 KiB
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] FREE 0x100d64000-0x100ec4000 size=1.38 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x10a400000 size=127.72 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x11a400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x122400000-0x1224a4000 size=656.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1224a4000-0x1228a4000 size=4.00 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x1228a4000-0x122c00000 size=3.36 MiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] FREE 0x125df4000-0x16f3a8000 size=1.15 GiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fa94000-0x180000000 size=261.42 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 0 held 0 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 0, dirtying pages
+[va] dirtied step 1 held 100 MiB os_proc_available_memory=1.94 GiB managed=100.22 MiB
+[va] ===== before step 1 held 100 MiB =====
+[va] SUMMARY os_proc_available_memory=1.94 GiB phys_footprint=115.52 MiB resident=137.38 MiB resident_peak=137.38 MiB device_ram=3.60 GiB virtual=442.59 GiB region_count=112 page=16384 min=0x100958000 max=0x7180000000 gc_heap=0 B gc_committed=0 B gc_total_available=3.60 GiB managed=100.23 MiB
+[va] FREE_SUMMARY walked=112 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=7.40 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x1263ac000-0x16f3a8000 size=1.14 GiB
+[va] LARGEST_FREE[2] 0x16fa94000-0x180000000 size=261.42 MiB
+[va] LARGEST_FREE[3] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[4] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[5] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[6] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] LARGEST_FREE[7] 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x10a400000 size=127.72 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x122400000-0x1224a4000 size=656.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1224a4000-0x1228a4000 size=4.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x1263ac000-0x16f3a8000 size=1.14 GiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fa94000-0x180000000 size=261.42 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 1 held 100 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 1, dirtying pages
+[va] dirtied step 2 held 200 MiB os_proc_available_memory=1.84 GiB managed=200.13 MiB
+[va] ===== before step 2 held 200 MiB =====
+[va] SUMMARY os_proc_available_memory=1.84 GiB phys_footprint=213.19 MiB resident=238.19 MiB resident_peak=238.19 MiB device_ram=3.60 GiB virtual=442.72 GiB region_count=120 page=16384 min=0x100958000 max=0x7180000000 gc_heap=100.22 MiB gc_committed=100.59 MiB gc_total_available=3.60 GiB managed=200.13 MiB
+[va] FREE_SUMMARY walked=120 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=7.27 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x12ecf0000-0x16f3a8000 size=1.01 GiB
+[va] LARGEST_FREE[2] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[3] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[4] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[5] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[6] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] LARGEST_FREE[7] 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x122400000-0x1224a4000 size=656.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1224a4000-0x1228a4000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x12ecf0000-0x16f3a8000 size=1.01 GiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 2 held 200 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 2, dirtying pages
+[va] dirtied step 3 held 300 MiB os_proc_available_memory=1.74 GiB managed=300.20 MiB
+[va] ===== before step 3 held 300 MiB =====
+[va] SUMMARY os_proc_available_memory=1.74 GiB phys_footprint=313.27 MiB resident=338.23 MiB resident_peak=338.23 MiB device_ram=3.60 GiB virtual=442.85 GiB region_count=123 page=16384 min=0x100958000 max=0x7180000000 gc_heap=100.22 MiB gc_committed=100.59 MiB gc_total_available=3.60 GiB managed=300.20 MiB
+[va] FREE_SUMMARY walked=123 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=7.14 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x136cf0000-0x16f3a8000 size=902.72 MiB
+[va] LARGEST_FREE[2] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[3] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[4] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[5] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[6] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] LARGEST_FREE[7] 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x122400000-0x1224a4000 size=656.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1224a4000-0x1228a4000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x136cf0000-0x16f3a8000 size=902.72 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 3 held 300 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 3, dirtying pages
+[va] dirtied step 4 held 400 MiB os_proc_available_memory=1.65 GiB managed=400.26 MiB
+[va] ===== before step 4 held 400 MiB =====
+[va] SUMMARY os_proc_available_memory=1.65 GiB phys_footprint=413.38 MiB resident=407.63 MiB resident_peak=438.27 MiB device_ram=3.60 GiB virtual=442.97 GiB region_count=126 page=16384 min=0x100958000 max=0x7180000000 gc_heap=100.22 MiB gc_committed=100.59 MiB gc_total_available=3.60 GiB managed=400.26 MiB
+[va] FREE_SUMMARY walked=126 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=7.02 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x13ecf0000-0x16f3a8000 size=774.72 MiB
+[va] LARGEST_FREE[2] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[3] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[4] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[5] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[6] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] LARGEST_FREE[7] 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x122400000-0x1224a4000 size=656.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1224a4000-0x1228a4000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x13ecf0000-0x16f3a8000 size=774.72 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 4 held 400 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 4, dirtying pages
+[va] dirtied step 5 held 500 MiB os_proc_available_memory=1.55 GiB managed=500.33 MiB
+[va] ===== before step 5 held 500 MiB =====
+[va] SUMMARY os_proc_available_memory=1.55 GiB phys_footprint=514.16 MiB resident=408.53 MiB resident_peak=438.78 MiB device_ram=3.60 GiB virtual=443.12 GiB region_count=131 page=16384 min=0x100958000 max=0x7180000000 gc_heap=100.22 MiB gc_committed=100.59 MiB gc_total_available=3.60 GiB managed=500.33 MiB
+[va] FREE_SUMMARY walked=131 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.87 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x147f74000-0x16f3a8000 size=628.20 MiB
+[va] LARGEST_FREE[2] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[3] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[4] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[5] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[6] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] LARGEST_FREE[7] 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x122400000-0x1224a4000 size=656.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1224a4000-0x1228a4000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x147f74000 size=16.00 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x147f74000-0x16f3a8000 size=628.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 5 held 500 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 5, dirtying pages
+[va] dirtied step 6 held 600 MiB os_proc_available_memory=1.45 GiB managed=600.13 MiB
+[va] ===== before step 6 held 600 MiB =====
+[va] SUMMARY os_proc_available_memory=1.45 GiB phys_footprint=614.81 MiB resident=410.56 MiB resident_peak=440.30 MiB device_ram=3.60 GiB virtual=443.24 GiB region_count=134 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=600.13 MiB
+[va] FREE_SUMMARY walked=134 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.75 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x14ff74000-0x16f3a8000 size=500.20 MiB
+[va] LARGEST_FREE[2] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x14ff74000-0x16f3a8000 size=500.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 6 held 600 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 6, dirtying pages
+[va] dirtied step 7 held 700 MiB os_proc_available_memory=1.35 GiB managed=700.21 MiB
+[va] ===== before step 7 held 700 MiB =====
+[va] SUMMARY os_proc_available_memory=1.35 GiB phys_footprint=715.56 MiB resident=446.72 MiB resident_peak=476.19 MiB device_ram=3.60 GiB virtual=443.36 GiB region_count=137 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=700.21 MiB
+[va] FREE_SUMMARY walked=137 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.63 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x157f74000-0x16f3a8000 size=372.20 MiB
+[va] LARGEST_FREE[2] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x157f74000-0x16f3a8000 size=372.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 7 held 700 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 7, dirtying pages
+[va] dirtied step 8 held 800 MiB os_proc_available_memory=1.25 GiB managed=800.28 MiB
+[va] ===== before step 8 held 800 MiB =====
+[va] SUMMARY os_proc_available_memory=1.25 GiB phys_footprint=815.66 MiB resident=523.39 MiB resident_peak=538.09 MiB device_ram=3.60 GiB virtual=443.49 GiB region_count=140 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=800.28 MiB
+[va] FREE_SUMMARY walked=140 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.50 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[2] 0x15ff74000-0x16f3a8000 size=244.20 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x157f74000-0x157f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x157f7c000-0x15e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15e37c000-0x15ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x15ff74000-0x16f3a8000 size=244.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 8 held 800 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 8, dirtying pages
+[va] dirtied step 9 held 900 MiB os_proc_available_memory=1.15 GiB managed=900.35 MiB
+[va] ===== before step 9 held 900 MiB =====
+[va] SUMMARY os_proc_available_memory=1.15 GiB phys_footprint=915.75 MiB resident=558.48 MiB resident_peak=574.86 MiB device_ram=3.60 GiB virtual=443.61 GiB region_count=143 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=900.35 MiB
+[va] FREE_SUMMARY walked=143 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.38 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x16fb20000-0x180000000 size=260.88 MiB
+[va] LARGEST_FREE[2] 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x157f74000-0x157f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x157f7c000-0x15e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15e37c000-0x15ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x15ff74000-0x15ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15ff7c000-0x16637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16637c000-0x167f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x16fb20000-0x180000000 size=260.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 9 held 900 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 9, dirtying pages
+[va] dirtied step 10 held 1000 MiB os_proc_available_memory=1.06 GiB managed=1000.43 MiB
+[va] ===== before step 10 held 1000 MiB =====
+[va] SUMMARY os_proc_available_memory=1.06 GiB phys_footprint=1015.83 MiB resident=555.45 MiB resident_peak=613.42 MiB device_ram=3.60 GiB virtual=443.74 GiB region_count=146 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=1000.43 MiB
+[va] FREE_SUMMARY walked=146 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.25 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x177b20000-0x180000000 size=132.88 MiB
+[va] LARGEST_FREE[2] 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x157f74000-0x157f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x157f7c000-0x15e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15e37c000-0x15ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x15ff74000-0x15ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15ff7c000-0x16637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16637c000-0x167f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb20000-0x16fb28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb28000-0x175f28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x175f28000-0x177b20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x177b20000-0x180000000 size=132.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 10 held 1000 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 10, dirtying pages
+[va] dirtied step 11 held 1100 MiB os_proc_available_memory=982.04 MiB managed=1.07 GiB
+[va] ===== before step 11 held 1100 MiB =====
+[va] SUMMARY os_proc_available_memory=982.06 MiB phys_footprint=1.09 GiB resident=561.38 MiB resident_peak=613.42 MiB device_ram=3.60 GiB virtual=443.86 GiB region_count=149 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=1.07 GiB
+[va] FREE_SUMMARY walked=149 end_code=1 first=0x100958000 last_end=0x7000000000 largest_free=6.00 GiB total_free_between_regions=6.13 GiB
+[va] LARGEST_FREE[0] 0x7000000000-0x7180000000 size=6.00 GiB
+[va] LARGEST_FREE[1] 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] LARGEST_FREE[2] 0x17fb20000-0x180000000 size=4.88 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x10a400000 size=127.47 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x157f74000-0x157f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x157f7c000-0x15e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15e37c000-0x15ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x15ff74000-0x15ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15ff7c000-0x16637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16637c000-0x167f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb20000-0x16fb28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb28000-0x175f28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x175f28000-0x177b20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x177b20000-0x177b28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x177b28000-0x17df28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x17df28000-0x17fb20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x17fb20000-0x180000000 size=4.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] FREE 0x7000000000-0x7180000000 size=6.00 GiB
+[va] ===== end before step 11 held 1100 MiB =====
+[va] allocating 100 MiB
+[va] allocated step 11, dirtying pages
+[va] dirtied step 12 held 1200 MiB os_proc_available_memory=880.83 MiB managed=1.17 GiB
+[va] ===== before step 12 held 1200 MiB =====
+[va] SUMMARY os_proc_available_memory=880.79 MiB phys_footprint=1.19 GiB resident=557.22 MiB resident_peak=613.42 MiB device_ram=3.60 GiB virtual=448.00 GiB region_count=187 page=16384 min=0x100958000 max=0x7180000000 gc_heap=500.06 MiB gc_committed=500.72 MiB gc_total_available=3.60 GiB managed=1.17 GiB
+[va] FREE_SUMMARY walked=187 end_code=1 first=0x100958000 last_end=0x7108c24000 largest_free=1.86 GiB total_free_between_regions=1.99 GiB
+[va] LARGEST_FREE[0] 0x7108c24000-0x7180000000 size=1.86 GiB
+[va] LARGEST_FREE[1] 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] LARGEST_FREE[2] 0x17fb20000-0x180000000 size=4.88 MiB
+[va] LARGEST_FREE[3] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[4] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[5] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[6] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] LARGEST_FREE[7] 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x1024c8000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1024c8000-0x10a400000 size=127.22 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x146cf0000-0x146f74000 size=2.52 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x146f74000-0x14738c000 size=4.09 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14738c000-0x147394000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147394000-0x147f74000 size=11.88 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x157f74000-0x157f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x157f7c000-0x15e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15e37c000-0x15ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x15ff74000-0x15ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15ff7c000-0x16637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16637c000-0x167f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb20000-0x16fb28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb28000-0x175f28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x175f28000-0x177b20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x177b20000-0x177b28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x177b28000-0x17df28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x17df28000-0x17fb20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x17fb20000-0x180000000 size=4.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x7000000000-0x7000008000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7000008000-0x7006408000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7006408000-0x7008000000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7008000000-0x7010000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7010000000-0x7018000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7018000000-0x7020000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7020000000-0x7028000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7028000000-0x702ab6c000 size=43.42 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x702ab6c000-0x7030000000 size=84.58 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7030000000-0x7038000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7038000000-0x7040000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7040000000-0x7048000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7048000000-0x7050000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7050000000-0x7058000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7058000000-0x7060000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7060000000-0x7068000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7068000000-0x7070000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7070000000-0x7078000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7078000000-0x7080000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7080000000-0x7088000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7088000000-0x7090000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7090000000-0x7098000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7098000000-0x70a0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70a0000000-0x70a8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70a8000000-0x70b0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70b0000000-0x70b8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70b8000000-0x70c0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70c0000000-0x70c8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70c8000000-0x70d0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70d0000000-0x70d8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70d8000000-0x70e0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70e0000000-0x70e8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70e8000000-0x70f0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70f0000000-0x70f8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70f8000000-0x7100000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7100000000-0x7108000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7108000000-0x7108c24000 size=12.14 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x7108c24000-0x7180000000 size=1.86 GiB
+[va] ===== end before step 12 held 1200 MiB =====
+[va] allocating 100 MiB
+[va] MANAGED OOM at step 12 held 1200 MiB: Insufficient memory to continue the execution of the program.
+[va] ===== after managed OOM =====
+[va] SUMMARY os_proc_available_memory=880.68 MiB phys_footprint=1.19 GiB resident=557.36 MiB resident_peak=613.42 MiB device_ram=3.60 GiB virtual=447.98 GiB region_count=183 page=16384 min=0x100958000 max=0x7180000000 gc_heap=1.17 GiB gc_committed=1.17 GiB gc_total_available=3.60 GiB managed=1.17 GiB
+[va] FREE_SUMMARY walked=183 end_code=1 first=0x100958000 last_end=0x7108c24000 largest_free=1.86 GiB total_free_between_regions=2.01 GiB
+[va] LARGEST_FREE[0] 0x7108c24000-0x7180000000 size=1.86 GiB
+[va] LARGEST_FREE[1] 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] LARGEST_FREE[2] 0x146cf0000-0x147f74000 size=18.52 MiB
+[va] LARGEST_FREE[3] 0x17fb20000-0x180000000 size=4.88 MiB
+[va] LARGEST_FREE[4] 0x122400000-0x1228a4000 size=4.64 MiB
+[va] LARGEST_FREE[5] 0x101984000-0x101c00000 size=2.48 MiB
+[va] LARGEST_FREE[6] 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] LARGEST_FREE[7] 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x100958000-0x100bc8000 size=2.44 MiB prot=r-x maxprot=r-x shared=0
+[va] MAP  0x100bc8000-0x100bcc000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100bcc000-0x100bf8000 size=176.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100bf8000-0x100c70000 size=480.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100c70000-0x100c80000 size=64.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c80000-0x100c88000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100c88000-0x100c94000 size=48.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100c94000-0x100cd4000 size=256.00 KiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x100cd4000-0x100cd8000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cd8000-0x100cf0000 size=96.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100cf0000-0x100cf4000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100cf4000-0x100d00000 size=48.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x100d00000-0x100d04000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d04000-0x100d08000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d08000-0x100d0c000 size=16.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x100d0c000-0x100d18000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d18000-0x100d20000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d20000-0x100d2c000 size=48.00 KiB prot=r-x maxprot=rwx shared=0
+[va] MAP  0x100d2c000-0x100d34000 size=32.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x100d34000-0x100d38000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d38000-0x100d3c000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d3c000-0x100d40000 size=16.00 KiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x100d40000-0x100d64000 size=144.00 KiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x100d64000-0x100d68000 size=16.00 KiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x100d68000-0x100ec4000 size=1.36 MiB
+[va] MAP  0x100ec4000-0x100f7c000 size=736.00 KiB prot=--- maxprot=--- shared=0
+[va] FREE 0x100f7c000-0x100fb4000 size=224.00 KiB
+[va] MAP  0x100fb4000-0x101028000 size=464.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x101028000-0x1010ec000 size=784.00 KiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1010ec000-0x101180000 size=592.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101180000-0x101184000 size=16.00 KiB prot=r-- maxprot=rwx shared=0
+[va] MAP  0x101184000-0x101194000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101194000-0x10119c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x10119c000-0x1011ac000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x1011ac000-0x1011ec000 size=256.00 KiB
+[va] MAP  0x1011ec000-0x1014fc000 size=3.06 MiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1014fc000-0x101500000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101500000-0x101900000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x101900000-0x101904000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x101904000-0x101984000 size=512.00 KiB prot=rw- maxprot=rwx shared=0
+[va] FREE 0x101984000-0x101c00000 size=2.48 MiB
+[va] MAP  0x101c00000-0x102000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102000000-0x102400000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102400000-0x102408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102408000-0x102448000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102448000-0x102488000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x102488000-0x1024c8000 size=256.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1024c8000-0x10a400000 size=127.22 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x10a400000-0x112400000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x112400000-0x112408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x112408000-0x118808000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x118808000-0x11a400000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x11a400000-0x11a408000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x11a408000-0x122400000 size=127.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x122400000-0x1228a4000 size=4.64 MiB
+[va] MAP  0x1228a4000-0x122b80000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] FREE 0x122b80000-0x122c00000 size=512.00 KiB
+[va] MAP  0x122c00000-0x123000000 size=4.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123000000-0x123010000 size=64.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x123010000-0x123400000 size=3.94 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x123400000-0x125670000 size=34.44 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x125670000-0x125df4000 size=7.52 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x125df4000-0x1260d0000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1260d0000-0x1263ac000 size=2.86 MiB prot=rw- maxprot=rwx shared=1
+[va] MAP  0x1263ac000-0x1263b4000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1263b4000-0x12c7b4000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12c7b4000-0x12e3ac000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12e3ac000-0x12e4f0000 size=1.27 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12e4f0000-0x12ecf0000 size=8.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x12ecf0000-0x12ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x12ecf8000-0x1350f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1350f8000-0x136cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x136cf0000-0x136cf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x136cf8000-0x13d0f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13d0f8000-0x13ecf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x13ecf0000-0x13ecf8000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x13ecf8000-0x1450f8000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x1450f8000-0x146cf0000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x146cf0000-0x147f74000 size=18.52 MiB
+[va] MAP  0x147f74000-0x147f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x147f7c000-0x14e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14e37c000-0x14ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x14ff74000-0x14ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x14ff7c000-0x15637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15637c000-0x157f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x157f74000-0x157f7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x157f7c000-0x15e37c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15e37c000-0x15ff74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x15ff74000-0x15ff7c000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x15ff7c000-0x16637c000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16637c000-0x167f74000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x167f74000-0x16f3a8000 size=116.20 MiB
+[va] MAP  0x16f3a8000-0x16f3ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f3ac000-0x16f4a8000 size=1008.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f4a8000-0x16f4ac000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f4ac000-0x16f534000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f534000-0x16f538000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f538000-0x16f5c0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f5c0000-0x16f5c4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f5c4000-0x16f64c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f64c000-0x16f650000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f650000-0x16f6d8000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f6d8000-0x16f6dc000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f6dc000-0x16f764000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f764000-0x16f768000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f768000-0x16f7f0000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f7f0000-0x16f7f4000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f7f4000-0x16f87c000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f87c000-0x16f880000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f880000-0x16f908000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16f908000-0x16f90c000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16f90c000-0x16fa94000 size=1.53 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fa94000-0x16fa98000 size=16.00 KiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x16fa98000-0x16fb20000 size=544.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb20000-0x16fb28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x16fb28000-0x175f28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x175f28000-0x177b20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x177b20000-0x177b28000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x177b28000-0x17df28000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x17df28000-0x17fb20000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x17fb20000-0x180000000 size=4.88 MiB
+[va] MAP  0x180000000-0x1e8000000 size=1.63 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8000000-0x1e8624000 size=6.14 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1e8624000-0x1ea450000 size=30.17 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ea450000-0x1ec000000 size=27.69 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec000000-0x1ec450000 size=4.31 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ec450000-0x1ee000000 size=27.69 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1ee000000-0x1ef094000 size=16.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1ef094000-0x1ef0b8000 size=144.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1ef0b8000-0x1f1254000 size=33.61 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x1f1254000-0x1f816c000 size=111.09 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x1f816c000-0x1fa000000 size=30.58 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x1fa000000-0x270000000 size=1.84 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270000000-0x270610000 size=6.06 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x270610000-0x272548000 size=31.22 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x272548000-0x274000000 size=26.72 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x274000000-0x278000000 size=64.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x278000000-0x2785f0000 size=5.94 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2785f0000-0x2785f4000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2785f4000-0x279fd4000 size=25.88 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x279fd4000-0x27fb20000 size=91.30 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x27fb20000-0x280000000 size=4.88 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x280000000-0x2d0000000 size=1.25 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d0000000-0x2d05a4000 size=5.64 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d05a4000-0x2d2300000 size=29.36 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d2300000-0x2d4000000 size=29.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d4000000-0x2d6000000 size=32.00 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d6000000-0x2d70d4000 size=16.83 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2d70d4000-0x2d70d8000 size=16.00 KiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2d70d8000-0x2d80ec000 size=16.08 MiB prot=rw- maxprot=rw- shared=0
+[va] MAP  0x2d80ec000-0x2db994000 size=56.66 MiB prot=r-- maxprot=rw- shared=0
+[va] MAP  0x2db994000-0x2dc000000 size=6.42 MiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0x2dc000000-0xfc0000000 size=51.56 GiB prot=r-- maxprot=r-- shared=0
+[va] MAP  0xfc0000000-0x1000000000 size=1.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x1000000000-0x7000000000 size=384.00 GiB prot=--- maxprot=--- shared=0
+[va] MAP  0x7000000000-0x7000008000 size=32.00 KiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7000008000-0x7006408000 size=100.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7006408000-0x7008000000 size=27.97 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7008000000-0x7010000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7010000000-0x7018000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7018000000-0x7020000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7020000000-0x7028000000 size=128.00 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x7028000000-0x702ab6c000 size=43.42 MiB prot=rw- maxprot=rwx shared=0
+[va] MAP  0x702ab6c000-0x7030000000 size=84.58 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7030000000-0x7038000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7038000000-0x7040000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7040000000-0x7048000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7048000000-0x7050000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7050000000-0x7058000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7058000000-0x7060000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7060000000-0x7068000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7068000000-0x7070000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7070000000-0x7078000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7078000000-0x7080000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7080000000-0x7088000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7088000000-0x7090000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7090000000-0x7098000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7098000000-0x70a0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70a0000000-0x70a8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70a8000000-0x70b0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70b0000000-0x70b8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70b8000000-0x70c0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70c0000000-0x70c8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70c8000000-0x70d0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70d0000000-0x70d8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70d8000000-0x70e0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70e0000000-0x70e8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70e8000000-0x70f0000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70f0000000-0x70f8000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x70f8000000-0x7100000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7100000000-0x7108000000 size=128.00 MiB prot=--- maxprot=rwx shared=0
+[va] MAP  0x7108000000-0x7108c24000 size=12.14 MiB prot=--- maxprot=rwx shared=0
+[va] FREE 0x7108c24000-0x7180000000 size=1.86 GiB
+[va] ===== end after managed OOM =====
